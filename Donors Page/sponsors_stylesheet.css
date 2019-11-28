@@ -1,0 +1,41 @@
+.sponsorImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.imgCell {
+    margin-left: 55px;
+}
+
+.messageRow {
+    line-height: 50px;
+}
+
+.messageCell {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Cachet Bold';
+}
+
+.messageCell p {
+    display: inline-block;
+    height: 50px;
+}
+
+.so {
+    color: #0089d0;
+}
+
+.much {
+    color: #92278f;
+}
+
+.more {
+    color: #2ba6cb;
+}
+
+.spacing {
+    height: 20px;
+}

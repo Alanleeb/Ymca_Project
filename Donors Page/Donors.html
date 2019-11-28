@@ -1,0 +1,640 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--[if IE 8]><html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+<head>
+    
+    <!--<base href="https://ymcautah.org/" />-->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="gmapkey" content="AIzaSyDLba9hROk4Yszmh2f2MZhV8JEqHLZd0Zk" />
+	
+    <!-- Twitter Protocols (twitter will pull in description and image from Facebook's OG) needs to be below meta_tags so that the card is not overwritten-->
+    <meta name="twitter:card" content="summary" />
+    
+    <!-- Facebook Protocols -->
+    <meta property="fb:page_id" content="" /><!-- if they have a Facebook page: http://findmyfacebookid.com/ -->
+    <meta property="og:site_name" content="YMCA of Northern Utah" />
+    <meta property="og:title" content="YMCA of Northern Utah" />
+    <meta property="og:description" content="The Y makes accessible the support and opportunities that empower people and communities to learn, grow and thrive." />
+    <meta property="og:phone_number" content="1.877.690.YMCA (9622)" />
+    <meta property="og:type" content="website"/>
+    <meta name="keywords" content="YMCA, the y, Northern Utah YMCA, YMCA of Northern Utah, Gym, Fitness, Health, Health Center, Workout, Active Lifestyle, Exercise, Pool, Fitness Center, Sports, Youth Sports" />
+    <meta name="description" content="The Y makes accessible the support and opportunities that empower people and communities to learn, grow and thrive." />
+    
+    <link rel="canonical" href="https://ymcautah.org/" />
+    
+    <!-- Google -->
+    <meta property="street_address" content="3216 South Highland Drive Suite 200">
+    <meta property="locality" content="Salt Lake City">
+    <meta property="region" content="UT">
+    <meta property="latitude" content="">
+    <meta property="longitude" content="">
+    <meta property="postal-code" content="84106">
+    <meta property="country-name" content="USA">
+        
+    <!-- Windows 8.1 Meta -->
+    <meta name="application-name" content="YMCA of Northern Utah"/>
+    <meta name="msapplication-TileColor" content="#ffffff"/>
+    <meta name="msapplication-square70x70logo" content="https://ymcautah.org/graphics/images/blue_purple/smalltile.png"/>
+    <meta name="msapplication-square150x150logo" content="https://ymcautah.org/graphics/images/blue_purple/mediumtile.png"/>
+    <meta name="msapplication-wide310x150logo" content="https://ymcautah.org/graphics/images/blue_purple/widetile.png"/>
+    <meta name="msapplication-square310x310logo" content="https://ymcautah.org/graphics/images/blue_purple/largetile.png"/>
+    
+    <!-- End Social Media OG Protocols  -->
+    <meta property="og:image" content="https://ymcautah.org//clientuploads/og-ymca-of-northern-utah.jpg" />
+    
+    <!-- Apple Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="graphics/images/blue_purple/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="graphics/images/blue_purple/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="graphics/images/blue_purple/apple-touch-icon-72x72.png"> 
+    <link rel="apple-touch-icon" sizes="76x76" href="graphics/images/blue_purple/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="graphics/images/blue_purple/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="graphics/images/blue_purple/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="graphics/images/blue_purple/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="graphics/images/blue_purple/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="graphics/images/blue_purple/apple-touch-icon-180x180.png">
+    
+    <link rel="canonical" href="https://ymcautah.org/" />
+    
+    <title>YMCA of Northern Utah</title>
+    	
+    <!-- Style Sheets -->
+    <link href="foundation.css" rel="stylesheet" type="text/css"/>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+    <link href="sponsors_stylesheet.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- Color Scheme -->
+    <!-- Create this file as a PNG and rename extension to .ico for browser compatibility -->
+    <link rel="icon" type="image/png" href="graphics/images/blue_purple/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="graphics/images/blue_purple/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="graphics/images/blue_purple/favicon-96x96.png" sizes="96x96">
+    <link rel="shortcut icon" type="image/x-icon" href="graphics/images/blue_purple/favicon.ico" />
+    
+    <link href="scheme-blue-purple.css" rel="stylesheet" type="text/css"/>
+    <link href="print.css" rel="stylesheet" media="print"/>
+    
+    <!-- Even thought IE8 is not supported by Thrive, this stylesheet at least gets the responsive grid to work a little in IE8.  -->
+    <!--[if lt IE 9]>
+        <link rel="stylesheet" href="ie8.css">
+    <![endif]-->
+
+    <!-- Essential jQuery libraries; for jQuery plugins, look in footer -->
+    <script src="js/modernizr.foundation.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <script src="js/js.essentials.all.js"></script>
+
+    <!-- Google Analytics -->
+    <!-- Below is ymcademo.com UA- analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-25297080-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+    
+</head>
+<body class="style-4 ">
+    
+    <header id="header">
+        <div class="sticky">
+            <div data-topbar>
+                
+                <!-- Header Style Setting -->
+                                                                                            <div class="top-nav">
+    <div class="row">
+        <div class="medium-12 columns">
+            <div class="search"><form method="get" action="index.php" style="margin:0;" id="search_box_form"><div style="display:none;"><input type="hidden" name="engine_id" value="" /><input type="hidden" name="src" value="search" /><input type="hidden" name="search_id" value="search_site" /></div><div class="search-input">
+    <input name="search_this" placeholder="Search..." value="" size="15" onfocus="this.select()" class="searchBoxInput" type="text">
+</div>
+<div class="search-submit">
+    <a href="javascript:document.getElementById('search_box_form').submit()" class="search-link"><img src="graphics/images/icon_search.png" alt="Submit Search" /></a>
+</div>
+
+</form></div><!-- .search -->
+            <nav>
+ <ul class="menu_topbar">
+   <li class="item1" ><a class="first" href="">Home </a></li>
+   <li class="item2" ><a href="administrative/about-us/">About </a></li>
+   <li class="item3" ><a href="give">Donate </a></li>
+   <li class="item4" ><a class="last" href="forms/contact-us/">Contact </a></li>
+ </ul>
+</nav>
+        </div><!-- .medium-7 -->
+    </div><!-- .row.full -->
+</div><!-- .top-bar -->
+
+<nav id="mainnav" role="navigation">
+    <div class="row">
+        <div class="large-5 medium-5 small-4 columns logo-wrapper">
+            <div class="logo">
+                <a href="">
+                    <img class="main-y solo" src="graphics/images/blue_purple/y_only_logo.png" alt="YMCA Logo - The Y" role="logo"/>
+                </a>
+            </div>
+            <h1 class="secondary medium ymca-name"><a href="">YMCA of Northern Utah</a></h1>
+        </div><!-- .medium-5 -->
+        <div class="large-7 medium-7 small-8 columns header-right">
+            <h1 class="secondary medium ymca-name"><a href="">YMCA of Northern Utah</a></h1>
+            <div class="header-menu-buttons">
+    <a href="give" class="primary-bg medium-bg button">Give</a>
+<a href="http://ymcautah.org/forms/contact-us/" class="secondary-bg medium-bg button" >Contact</a>
+<a href="getinvolved/" class="tertiary-bg light-bg button">Volunteer</a>
+</div><!-- /.header-menu-buttons -->
+        </div><!-- .medium-7 -->
+        <div class="show-for-small mobile row">
+                <div class="mobile-buttons">
+                    <a href="tel:1.877.690.YMCA (9622)" class="mobile-icon"><img src="graphics/images/icon_phone.png" alt="Call YMCA of Northern Utah" /></a>
+                    <a href="locations/" class="mobile-icon"><img src="graphics/images/icon_pin.png" alt="View Map" /></a>
+                    <div class="clear"></div>
+                </div>
+                <div class="mobile-menu row"></div>
+            </div><!-- /.show-for-small.row.mobile -->
+    </div><!-- .row -->
+    
+    <div class="mobile-divider show-for-small secondary-bg medium-bg"></div>
+    
+    <div class="mainnav-wrapper hide-for-small secondary-bg medium-bg">
+        <div class="row">
+            <div class="large-12 columns">
+                
+ <ul class="mainnav_style4 top-level page-main-menu" >
+   <li class="item1 " ><a class="first "   href="">Programs <span class="caret"></span></a>
+   <ul class="secondary-bg dark-bg" >
+     <li class="item1 " ><a class="first " href="program/ymca-preschool-programs/">Early Childhood (Preschool) <span class="caret"></span></a>
+     <ul class="secondary-bg dark-bg" >
+       <li class="item1" ><a class="first" href="taylorsville/preschool">Taylorsville </a></li>
+       <li class="item2 " ><a class="last " href="weber/weber-county-preschool-program/">Weber <span class="caret"></span></a>
+       <ul class="secondary-bg dark-bg" >
+         <li class="item1" ><a class="first" href="weberpreschool/james-madison-elementary-preschool-program/">James Madison </a></li>
+         <li class="item2" ><a href="weberpreschool/larry-h.-and-gail-miller-family-foundation-ymca-community-family-center-preschool-program/">Larry H. and Gail Miller Family Community Center </a></li>
+         <li class="item3" ><a href="weberpreschool/ogden-school-district-preschool-program/">Ogden School District Campus </a></li>
+         <li class="item4" ><a class="last" href="weberpreschool/t.o.-smith-elementary-preschool-program/">T.O. Smith </a></li>
+       </ul>
+      </li>
+     </ul>
+    </li>
+     <li class="item2 " ><a class=""   href="">Afterschool <span class="caret"></span></a>
+     <ul class="secondary-bg dark-bg" >
+       <li class="item1 " ><a class="first "   href="">Elementary School Programs <span class="caret"></span></a>
+       <ul class="secondary-bg dark-bg" >
+         <li class="item1" ><a class="first" href="weberafterschool/davinci-academy-afterschool-program/">DaVinci Academy </a></li>
+         <li class="item2" ><a href="saltlakeafterschool/fox-hills-elementary-afterschool-program/">Fox Hills Elementary </a></li>
+         <li class="item3" ><a href="weberafterschool/heritage-elementary-afterschool-program/">Heritage Elementary </a></li>
+         <li class="item4" ><a href="weberafterschool/jefferson-academy-afterschool-program/">Jefferson Academy </a></li>
+         <li class="item5" ><a href="weberafterschool/leadership-learning-academy-layton-campus/">Leadership Learning Academy (Layton) </a></li>
+         <li class="item6" ><a href="weberafterschool/leadership-learning-academy-ogden-campus/">Leadership Learning Academy (Ogden) </a></li>
+         <li class="item7" ><a href="weberafterschool/larry-h.-gail-miller-family-foundation-ymca-community-family-center-afterschool-program/">Miller Community Family Center </a></li>
+         <li class="item8" ><a href="weberafterschool/ogden-preparatory-academy-afterschool-program/">Ogden Preparatory Academy </a></li>
+         <li class="item9" ><a href="weberafterschool/quest-academy-afterschool-program/">Quest Academy </a></li>
+         <li class="item10" ><a href="saltlakeafterschool/redwood-elementary-afterschool-program/">Redwood Elementary </a></li>
+         <li class="item11" ><a class="last" href="saltlakeafterschool/taylorsville-ymca-community-family-center-afterschool-programs/">Taylorsville Community Family Center </a></li>
+       </ul>
+      </li>
+       <li class="item2 " ><a class="last "   href="">Junior High and High School Programs <span class="caret"></span></a>
+       <ul class="secondary-bg dark-bg" >
+         <li class="item1" ><a class="first" href="weberafterschool/ben-lomond-afterschool-program/">Ben Lomond High School </a></li>
+         <li class="item2" ><a href="saltlakeafterschool/eisenhower-jr.-high-afterschool-program/">Eisenhower Junior High </a></li>
+         <li class="item3" ><a href="weberafterschool/highland-jr-high-afterschool-program/">Highland Junior High </a></li>
+         <li class="item4" ><a href="weberafterschool/mound-fort-jr.-high-afterschool-program/">Mound Fort Junior High </a></li>
+         <li class="item5" ><a class="last" href="weberafterschool/mount-ogden-jr.-high-afterschool-program/">Mount Ogden Junior High </a></li>
+       </ul>
+      </li>
+     </ul>
+    </li>
+     <li class="item3 " ><a class="" href="summerdaycamps">Summer Day Camp <span class="caret"></span></a>
+     <ul class="secondary-bg dark-bg" >
+       <li class="item1" ><a class="first" href="summerdaycamp/daviscounty">Davis County </a></li>
+       <li class="item2" ><a href="summerdaycamp/heber">Heber City </a></li>
+       <li class="item3" ><a href="summerdaycamp/parkcity">Park City </a></li>
+       <li class="item4" ><a href="summerdaycamp/saltlakecity">Salt Lake County </a></li>
+       <li class="item5" ><a class="last" href="summerdaycamp/webercounty">Weber County </a></li>
+     </ul>
+    </li>
+     <li class="item4 " ><a class="" href="camp">Overnight Camp <span class="caret"></span></a>
+     <ul class="secondary-bg dark-bg" >
+       <li class="item1" ><a class="first" href="millhollow">Camp Mill Hollow </a></li>
+       <li class="item2" ><a class="last" href="camproger">Camp Roger </a></li>
+     </ul>
+    </li>
+     <li class="item5" ><a class="last" href="yiski">Y I Ski </a></li>
+   </ul>
+  </li>
+   <li class="item2 " ><a class="" href="camps">Camps <span class="caret"></span></a>
+   <ul class="secondary-bg dark-bg" >
+     <li class="item1 " ><a class="first " href="summerdaycamps">Summer Day Camp <span class="caret"></span></a>
+     <ul class="secondary-bg dark-bg" >
+       <li class="item1" ><a class="first" href="summerdaycamp/heber">Heber City </a></li>
+       <li class="item2" ><a href="summerdaycamp/webercounty">Weber County </a></li>
+       <li class="item3" ><a href="summerdaycamp/saltlakecity">Salt Lake County </a></li>
+       <li class="item4" ><a href="summerdaycamp/parkcity">Park City </a></li>
+       <li class="item5" ><a class="last"   href="summerdaycamp/daviscounty">Davis County </a></li>
+     </ul>
+    </li>
+     <li class="item2 " ><a class="last " href="camp">Summer Overnight Camps <span class="caret"></span></a>
+     <ul class="secondary-bg dark-bg" >
+       <li class="item1 hideSub" ><a class="first" href="camproger">Camp Roger </a></li>
+       <li class="item2 hideSub" ><a class="last" href="millhollow">Mill Hollow </a></li>
+     </ul>
+    </li>
+   </ul>
+  </li>
+   <li class="item3 " ><a class=""   href="locations">Locations <span class="caret"></span></a>
+   <ul class="secondary-bg dark-bg" >
+     <li class="item1" ><a class="first"   href="http://ymcautah.org/davis/davis-county-locations/">Davis County </a></li>
+     <li class="item2 " ><a class="" href="weber/weber-county-locations/">Weber County <span class="caret"></span></a>
+     <ul class="secondary-bg dark-bg" >
+       <li class="item1" ><a class="first" href="locations/weber-ymca-location/larry-h.-gail-miller-family-foundation-ymca-community-family-center/">YMCA Community Family Center </a></li>
+       <li class="item2" ><a href="weber/weber-county-elementary-schools/">Elementary Schools </a></li>
+       <li class="item3" ><a   href="weber/weber-county-jr-high-schools/">Jr High Schools </a></li>
+       <li class="item4" ><a href="weber/weber-county-high-schools/">High Schools </a></li>
+       <li class="item5" ><a href="weber/weber-county-charter-schools/">Charter Schools </a></li>
+       <li class="item6" ><a href="locations/weber-ymca-location/ogden-school-district-campus/">Ogden City School District Campus </a></li>
+       <li class="item7" ><a href="locations/weber-ymca-location/weber-state-university/">Weber State University </a></li>
+       <li class="item8" ><a class="last" href="locations/weber-ymca-location/weber-county-association-office/">Administrative Office </a></li>
+     </ul>
+    </li>
+     <li class="item3 " ><a class="" href="salt-lake/salt-lake-county-locations/">Salt Lake County <span class="caret"></span></a>
+     <ul class="secondary-bg dark-bg" >
+       <li class="item1" ><a class="first" href="locations/salt-lake-ymca-location/ymca-community-family-center-taylorsville/">YMCA Community Family Center </a></li>
+       <li class="item2" ><a href="salt-lake/salt-lake-county-elementary-schools/">Elementary Schools </a></li>
+       <li class="item3" ><a class="last" href="locations/salt-lake-ymca-location/eisenhower-jr.-high-school/">Jr High Schools </a></li>
+     </ul>
+    </li>
+     <li class="item4 " ><a class="" href="wasatch/wasatch-county-locations/">Wasatch County <span class="caret"></span></a>
+     <ul class="secondary-bg dark-bg" >
+       <li class="item1" ><a class="first" href="camproger">Camp Roger </a></li>
+       <li class="item2" ><a   href="mill-hollow">Camp Mill Hollow </a></li>
+       <li class="item3" ><a   href="mill-hollow/yurt">Mill Hollow Yurt </a></li>
+       <li class="item4" ><a class="last" href="locations/wasatch-ymca-location/heber-summer-day-camp/">Heber </a></li>
+     </ul>
+    </li>
+     <li class="item5" ><a class="last" href="locations/">Find Your Y </a></li>
+   </ul>
+  </li>
+   <li class="item4 " ><a class="" href="getinvolved/">Get Involved <span class="caret"></span></a>
+   <ul class="secondary-bg dark-bg" >
+     <li class="item1" ><a class="first" href="give">Donate </a></li>
+     <li class="item2" ><a href="forms/volunteer-at-the-y/">Volunteer </a></li>
+     <li class="item3" ><a   href="http://ymcautah.org/events">Events </a></li>
+     <li class="item4" ><a class="last" href="employment">Employment </a></li>
+   </ul>
+  </li>
+   <li class="item5 " ><a class="last " href="administrative/about-us/">About Us <span class="caret"></span></a>
+   <ul class="secondary-bg dark-bg" >
+     <li class="item1" ><a class="first" href="annual-reports/">Our Annual Reports </a></li>
+     <li class="item2" ><a   href="ymca-history/">Our History </a></li>
+     <li class="item3" ><a   href="main/board-of-directors">Our Board </a></li>
+     <li class="item4" ><a   href="staff-directory/">Our Staff </a></li>
+     <li class="item5" ><a class="last" href="Donors.html">Our Donors</a></li>
+   </ul>
+  </li>
+ </ul>
+            </div><!-- /.large-12 -->
+        </div><!-- /.row -->
+    </div><!-- /.mainnav-wrapper.hide-for-small -->
+
+</nav><!-- #mainnav -->
+                                                                
+                
+                <!-- Alert Bar -->
+                                                <!-- /Alert Bar -->
+                
+            </div><!-- data-topbar -->
+            
+            <!-- Sub Menu -->
+                        <!-- /Sub Menu -->
+            
+            
+         </div><!-- .sticky -->
+    </header><!-- header -->
+    
+    <table class="sponsors">
+        <tr class="sponsorRow">
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Amer-Sports_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/American-Express_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Bank-of-Utah-Logo-Slider_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Boyer_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Brady_Shines_Final_med.jpg" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Comcast_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Comenity-Bank_med.png" alt=""/></div>
+            </td>
+        </tr>
+        <tr class="sponsorRow">
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Cyprus-Credit-Union_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Delta_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Dominion-Energy_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/EideBailly_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/GOED-Outdoor-Recreation_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/GSBS_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Get-Healthy-Utah_med.png" alt=""/></div>
+            </td>
+        </tr>
+        <tr class="messageRow">
+            <td class="messageCell" colspan="7">
+                <p>Thank you to our 2019 donors.</p>
+            </td>
+        </tr>
+        <tr class="messageRow">
+            <td class="messageCell" colspan="7">
+                <p> Together we can do</p>
+                <p class="so">SO.</p>
+                <p class="much">MUCH.</p>
+                <p class="more">MORE.</p>
+            </td>
+        </tr>
+        <tr class="spacing"></tr>
+        <tr class="sponsorRow">
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Harris-Financial_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Henriksen-Butler_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Holland-and-Hart_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Larry-Miller_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Marlin-Business-Bank_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Ogden-Nordic-Logo_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Ogden-Regional-Logo-Slider_med.png" alt=""/></div>
+            </td>
+        </tr>
+        <tr class="sponsorRow">
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Park-City-Community-Foundation_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/R-and-O-Construction_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Rocky-Mountain-Power_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Salt-Palace_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Share-Winter_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Smiths_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Spring-Back-Utah_med.png" alt=""/></div>
+            </td>
+        </tr>
+        <tr class="sponsorRow">
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Summit_Journeys_Logo_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/United-Way-Slider-Logo_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/University-of-Utah_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Wasatch-Peaks_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Wells-Fargo_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Workers-Compensation-Fund_med.png" alt=""/></div>
+            </td>
+            <td>
+                <div class ="imgCell"><img class="sponsorImage" src="graphics/images/sponsors/Xmission-01_med.png" alt=""/></div>
+            </td>
+        </tr>
+    </table>
+    
+        <!-- Footer Style Setting -->
+                            <div class="style-2">
+<div class="footer-callout-2 bar primary-bg dark-bg">
+    <div class="row">
+    </div><!-- .row -->
+</div><!-- .footer-callout-2.bar -->
+<div class="footer-2-separator primary-bg light-bg"></div>
+<footer id="footer">
+	<div class="row row-1">
+		<div class="medium-4 columns">
+		    <a href="" class="footer-logo">
+                <img src="graphics/images/blue_purple/y_logo.png" class="footer-logo-img" alt="YMCA of Northern Utah logo - the Y" role="logo" />
+            </a>
+		</div> <!-- .medium-4 -->
+		<div class="medium-4 columns">
+		        <div class="social-media">
+        <h4>Connect With Us</h4>
+        <a target="_blank" href="http://www.facebook.com/ymcautah" class="social-icon" target="blank"><img src="graphics/images/icon_facebook_trans_black.png" alt="Follow YMCA of Northern Utah on Facebook" /></a>                <a target="_blank" href="http://www.youtube.com/user/YMCAUtah" class="social-icon" target="blank"><img src="graphics/images/icon_youtube_trans_black.png" alt="Subscribe to YMCA of Northern Utah on YouTube" /></a>                <a target="_blank" href="https://www.instagram.com/ymcaofnorthernutah/" class="social-icon" target="blank"><img src="graphics/images/icon_instagram_trans_black.png" alt="Follow YMCA of Northern Utah on Instagram" /></a>            </div><!-- .social-media -->
+		</div> <!-- .medium-4 -->
+		<div class="medium-4 columns">
+		    <div class="email-sign-up">
+		        <h4>Sign Up for Latest News</h4>
+		        <a href="signup" class="secondary-bg medium-bg button">Newsletter Sign-up</a>
+		        <p class="small-p"><small>We care about your privacy and will never sell or give your email address to anyone.</small></p>
+		    </div><!-- .email-sign-up -->
+		</div> <!-- .medium-4 -->
+	</div> <!-- .row -->
+    <div class="row row-3">
+        <div class="medium-12 columns center footer-nav">
+            <hr/>
+            <a href="" class="secondary medium">Home</a>
+&nbsp; <span class="secondary medium">&middot;</span> &nbsp;<a href="forms/contact-us/" class="secondary medium">Contact</a>
+&nbsp; <span class="secondary medium">&middot;</span> &nbsp;<a href="administrative/about-us/"  class="secondary medium">About</a>
+&nbsp; <span class="secondary medium">&middot;</span> &nbsp;<a href="locations/" class="secondary medium">Locations</a>
+&nbsp; <span class="secondary medium">&middot;</span> &nbsp;<a href="news/" class="secondary medium">News</a>
+&nbsp; <span class="secondary medium">&middot;</span> &nbsp;<a href="https://asoft20106.accrisoft.com/ymcautah/give"  class="secondary medium">Donate</a>
+&nbsp; <span class="secondary medium">&middot;</span> &nbsp;<a href="employment" class="secondary medium">Employment</a>
+        </div><!-- .medium-12 -->
+        <div class="medium-12 columns center mission-statement">
+            <hr/>
+                    </div><!-- .medium-12 -->
+        
+    </div><!-- .row -->
+    <div class="copyright-wrapper primary-bg dark-bg">
+        <div class="row row-4">  			
+    		<div class="medium-6 columns copyright">
+    	        <p>Copyright &copy; 2019 YMCA of Northern Utah. All Rights Reserved.</p>
+            </div> <!-- .medium-6 -->
+            <div class="medium-6 columns thrive-links">
+    		    <p><a href="javascript: return null;" data-reveal-id="yboxDemo">yBox</a> | <a href="admin.php">Login</a> | A <a href="http://www.thriveim.com/ysites/ythrive/?ref=YMCA of Northern Utah" target="_blank">Thrive</a> Creation</p>
+    		</div> <!-- .medium-6 -->
+    	</div> <!-- .row -->
+    </div><!-- .copyright-wrapper -->
+</footer> <!-- #footer -->
+</div><!-- .style-2 -->
+                <!-- /Footer Settings -->
+                
+                    <!-- Countdown Timer Bar -->
+            <div class="countdown-bar" id="countdown-bar">
+    <div class="row">
+            </div><!-- .row -->
+</div><!-- .countdown-bar#countdown-bar -->
+        
+            <script type="text/javascript" src="js/popup.widget.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+    
+    <!-- yBox DEMO MODE call - for the footer yBox link - this code has to be BEFORE Foundation JS call to -->
+        
+    
+    
+    
+    
+    <!-- Foundation JS -->
+    <script>
+        $(document).foundation({
+        /*
+            topbar : {
+            },
+            reveal : {
+            },
+        */
+        });
+    </script>
+    
+    
+    <!-- yBox working mode has to be AFTER Foundation JS call to
+         This is for the LIVE site version of the yBox -->
+        
+           
+        
+        
+        
+     
+    <script>
+        jQuery(document).ready(function(jQuery){
+            
+                        
+            jQuery('ul.mainnav').superfish({autoArrows:false, delay: 600});
+            jQuery('ul.mainnav_style2').superfish({autoArrows:false, delay: 600});
+            jQuery('ul.mainnav_style4').superfish({autoArrows:false, delay: 600});
+                        
+                        jQuery('.flexslider').flexslider({
+                animation: "fade",
+                controlNav: true,
+                directionNav: true,
+                slideshowSpeed: 5500,
+                smoothHeight: true
+             });
+                          
+             if (window.innerWidth < 640){
+    $('.logo-slider').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth: 150,
+        maxItems: 2,                    //{NEW} Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.
+        allowOneSlide: false,           //{NEW} Boolean: Whether or not to allow a slider comprised of a single slide
+        slideshow: true,                // Allows the slideshow to rotate automatically
+        pauseOnHover: true,
+        slideshowSpeed: 4000,
+        itemMargin: 10,
+        directionNav: false
+    }); 
+} else if (window.innerWidth < 1024) {
+    $('.logo-slider').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth: 150,
+        maxItems: 3,                    //{NEW} Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.
+        allowOneSlide: false,           //{NEW} Boolean: Whether or not to allow a slider comprised of a single slide
+        slideshow: true,                // Allows the slideshow to rotate automatically
+        pauseOnHover: true,
+        slideshowSpeed: 4000,
+        itemMargin: 10,
+        directionNav: false
+    }); 
+} else {
+    $('.logo-slider').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth: 150,
+        maxItems: 6,                    //{NEW} Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.
+        allowOneSlide: false,           //{NEW} Boolean: Whether or not to allow a slider comprised of a single slide
+        slideshow: true,                // Allows the slideshow to rotate automatically
+        pauseOnHover: true,
+        slideshowSpeed: 4000,
+        itemMargin: 10,
+    }); 
+}
+             
+             jQuery('ul.mainnav').slicknav({
+                prependTo: '.mobile-menu',
+             });
+             jQuery('ul.mainnav_style2').slicknav({
+                prependTo: '.mobile-menu',
+             });
+             jQuery('ul.mainnav_style4').slicknav({
+                prependTo: '.mobile-menu',
+             });
+             
+             
+             // Top Bar JS - Foundation Sticky Nav Fixes
+             jQuery(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+             
+                /* Taken care of in topbar js of Foundation 
+                if (scroll >= 50) {
+                    $("#mainnav").addClass("fixed");
+                } 
+                */
+                
+                //This fixes reload when already scrolled down on page for TopBar Foundation JS - Sticky Nav Bar
+                if (scroll < 1) {
+                    $("#header .sticky").removeClass("fixed");
+                    $("body").removeClass("f-topbar-fixed");
+                }
+            });
+            
+                 
+        });
+        
+        
+    </script>
+    
+        
+    
+    <script type="text/javascript" src="js/ysite3-extras.js"></script>
+    
+</body>
+</html>

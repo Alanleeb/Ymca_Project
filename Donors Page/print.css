@@ -1,0 +1,96 @@
+/* GLOBAL */
+.print-only {display:block !important;}
+.no-print {display:none;}
+
+#topnav, #mainnav, #footer, #editAnywhere, #switcher_shell, 
+.hide-for-small, .countdown-bar, .footer-callout, .bg-stripe-bar, .slide-out-div, .top-bar
+    {display:none !important; }
+
+/* YMCA fonts */
+@font-face {
+    font-family: 'CachetBookRegular';
+    src: url('graphics/main/cachet-book-webfont.eot');
+    src: url('graphics/main/cachet-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('graphics/main/cachet-book-webfont.woff') format('woff'),
+         url('graphics/main/cachet-book-webfont.ttf') format('truetype'),
+         url('graphics/main/cachet-book-webfont.svg#CachetBookRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CachetMediumRegular';
+    src: url('graphics/main/cachet-medium-webfont.eot');
+    src: url('graphics/main/cachet-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('graphics/main/cachet-medium-webfont.woff') format('woff'),
+         url('graphics/main/cachet-medium-webfont.ttf') format('truetype'),
+         url('graphics/main/cachet-medium-webfont.svg#CachetMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CachetBoldRegular';
+    src: url('graphics/main/cachet-bold-webfont.eot');
+    src: url('graphics/main/cachet-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('graphics/main/cachet-bold-webfont.woff') format('woff'),
+         url('graphics/main/cachet-bold-webfont.ttf') format('truetype'),
+         url('graphics/main/cachet-bold-webfont.svg#CachetBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* General Print Styles */
+body {background:#fff !important;}
+p {font-size:12pt;}
+a {/* blue color for printing links */ color:#03499a; text-decoration:underline; font-weight:bold;}
+/* a:link:after { content: " (" attr(href) ") ";} */
+
+.container {width: 100%;}
+
+
+#top .five.columns {width:30%;}
+#top .small-6 .logo {width:100%; height:auto;}
+
+
+/* -----------------------------------------------------------------------
+Events Month-at-a-Glance
+----------------------------------------------------------------------- */
+#calendarDetail {width:98%;}
+#calendarDetail .iframe { background: transparent; }
+#calendarDetail .eventTD .eventHeadline{padding-bottom:5px;font-weight:bold;}
+#calendarDetail .calDayOn a{color:#fff;font-weight:bold;}
+#calendarDetail .calDayOn a:hover{color:#222;font-weight:bold;}
+#calendarDetail .calendarDays a {font-weight:bold;}
+#calendarDetail .calendarNav .weekdays{height:36px; font-family:'CachetMediumRegular',Verdana; font-size:18px; color:#fff;}
+#calendarDetail .calendarDays .weekend{background:#eee;font-weight:bold;}
+#calendarDetail .calendarDays .emptyDay{text-align:left;vertical-align:top;background-color:#eee;}
+#calendarDetail .calendarDays .eventToday{text-align:left;vertical-align:top;padding-left:5px;}
+#calendarDetail .calendarDays .eventOff{text-align:left;vertical-align:top;padding-left:5px; background:#fff;}
+#calendarDetail .calendarDays .eventOn{text-align:left;vertical-align:top;padding-left:5px; background:#fff;}
+#calendarDetail table,#calWrapper table{width:100%;table-layout:fixed; }
+#calendarDetail .calTop{margin-left:10px;}
+#calendarDetail .calMonth{text-align:center;font-weight:bold;margin-left:20px;margin-right:20px;}
+#calendarDetail .calBottom{text-align:left;margin-left:20px;}
+#calendarDetail .calMonthGlance{padding-top:10px;}
+#calendarDetail .calendarNav .title{font-weight:bold;color:#fff; font-family:'CachetMediumRegular',Verdana; font-size:24px; text-transform:uppercase; line-height:66px; height:66px;}
+#calendarDetail .prevLink a, #calendarDetail .nextLink a {display:none;}
+#calendarDetail .calendarDays .normal{display:none;}
+#calendarDetail td{text-align:center; border-bottom:1px solid #5B2D91; border-left:1px solid #5B2D91;}
+#calendarDetail table {border-top:1px solid #5B2D91; border-right:1px solid #5B2D91;}
+#calendarDetail .calendarDays .weekend, #calendarDetail .calendarDays .emptyDay, #calendarDetail .calendarDays .eventToday, #calendarDetail .calendarDays .eventOff, #calendarDetail .calendarDays .eventOn{height:80px;}
+#search_box_form, .event_filter {display:none;}
+
+#calendarDetail .calendarDays {
+    background: #5B2D91;
+}
+
+
+/* SCHEDULES */
+.schedules-wrapper {-webkit-print-color-adjust: exact; width: 100%;}
+.schedule-day-title {box-shadow: inset 0 0 0 1000px #eee; -webkit-box-shadow: inset 0 0 0 1000px #eee;}
+.schedule-day:nth-child(2n), .schedule-weekend:nth-child(2n) {box-shadow: inset 0 0 0 1000px #f5f5f5; -webkit-box-shadow: inset 0 0 0 1000px #f5f5f5;}
