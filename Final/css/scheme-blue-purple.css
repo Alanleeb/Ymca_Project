@@ -1,0 +1,178 @@
+/* --------------------------------
+    ---------------------------
+    Blue Purple Color Scheme
+    ---------------------------
+    
+    Primary:    Blue
+        Light:  #fcaf17
+        Medium: #0089d0
+        Dark:   #0060af
+        
+    Secondary:  Purple
+        Light:  #c6168d
+        Medium: #f47920
+        Dark:   #006b6b
+    
+-------------------------------- */
+
+::selection {background: #81daff;}
+::-moz-selection {background: #81daff;}
+
+/* Default Headings colors & Link color */
+a {color: #0089d0;}
+    a:hover {color: #0060af;}
+    
+h1 {color: #006b6b;}
+h2, h3, h4, h5, h6 {color: #f47920;}
+
+/* Text Colors */
+.primary.light  {color: #fcaf17;}
+.primary.medium {color: #0089d0;}
+.primary.dark   {color: #0060af;}
+.secondary.light  {color: #c6168d;}
+.secondary.medium {color: #f47920;}
+.secondary.dark   {color: #006b6b;}
+    a.primary.light:hover  {color: #0060af;}
+    a.primary.medium:hover {color: #fcaf17;}
+    a.primary.dark:hover   {color: #0089d0;}
+    a.secondary.light:hover  {color: #006b6b;}
+    a.secondary.medium:hover {color: #c6168d;}
+    a.secondary.dark:hover   {color: #f47920;}
+
+
+/* Background Colors */
+.primary-bg.light-bg  {background: #fcaf17;} 
+.primary-bg.medium-bg {background: #0089d0;}
+.primary-bg.dark-bg   {background: #0060af;}
+.transparent.primary-bg.dark-bg   {background: rgba(0,96,175,.9);}
+.secondary-bg.light-bg  {background: #c6168d;}
+.secondary-bg.medium-bg {background: #f47920;}
+.secondary-bg.dark-bg   {background: #006b6b;}
+    .primary-bg.light-bg.opaque  {background: rgba(0,174,239,0.8);} 
+    .primary-bg.medium-bg.opaque {background: rgba(0,137,208,0.8);}
+    .primary-bg.dark-bg.opaque   {background: rgba(0,96,175,0.8);}
+    .secondary-bg.light-bg.opaque  {background: rgba(198,22,141,0.8);}
+    .secondary-bg.medium-bg.opaque {background: rgba(146,39,143,0.8);}
+    .secondary-bg.dark-bg.opaque   {background: rgba(92,46,145,0.8);}
+    a.primary-bg.light-bg:hover, input.primary-bg.light-bg:hover    {background: #0089d0;} 
+    a.primary-bg.medium-bg:hover, input.primary-bg.medium-bg:hover  {background: #0060af;}
+    a.primary-bg.dark-bg:hover, input.primary-bg.dark-bg:hover      {background: #fcaf17;}
+    a.secondary-bg.light-bg:hover, input.secondary-bg.light-bg:hover    {background: #f47920;}
+    a.secondary-bg.medium-bg:hover, input.secondary-bg.medium-bg:hover  {background: #006b6b;}
+    a.secondary-bg.dark-bg:hover, input.secondary-bg.dark-bg:hover      {background: #c6168d;}
+    p.primary-bg.light-bg:hover, input.primary-bg.light-bg:hover    {background: #0089d0;} 
+    p.primary-bg.medium-bg:hover, input.primary-bg.medium-bg:hover  {background: #0060af;}
+    p.primary-bg.dark-bg:hover, input.primary-bg.dark-bg:hover      {background: #fcaf17;}
+    p.secondary-bg.light-bg:hover, input.secondary-bg.light-bg:hover    {background: #f47920;}
+    p.secondary-bg.medium-bg:hover, input.secondary-bg.medium-bg:hover  {background: #006b6b;}
+    p.secondary-bg.dark-bg:hover, input.secondary-bg.dark-bg:hover      {background: #c6168d;}
+    .primary-bg.light-bg.extra-opaque  {background: rgba(0,174,239,0.3) !important;} 
+    .primary-bg.medium-bg.extra-opaque {background: rgba(0,137,208,0.3) !important;}
+    .primary-bg.dark-bg.extra-opaque   {background: rgba(0,96,175,0.3 !important);}
+    .secondary-bg.light-bg.extra-opaque  {background: rgba(198,22,141,0.3) !important;}
+    .secondary-bg.medium-bg.extra-opaque {background: rgba(146,39,143,0.3) !important;}
+    .secondary-bg.dark-bg.extra-opaque   {background: rgba(92,46,145,0.3) !important;}
+    
+/* Background Gradients */
+.primary-bg.light-bg.gradient-bg {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcaf17+0,0089d0+100 */
+	background: #fcaf17; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fcaf17 0%, #0089d0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fcaf17 0%,#0089d0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fcaf17 0%,#0089d0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcaf17', endColorstr='#0089d0',GradientType=0 ); /* IE6-9 */
+}
+	.primary-bg.medium-bg.gradient-bg {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcaf17+0,0060af+100 */
+		background: #0089d0; /* Old browsers */
+		background: -moz-linear-gradient(top,  #fcaf17 0%, #0060af 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #fcaf17 0%,#0060af 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #fcaf17 0%,#0060af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcaf17', endColorstr='#0060af',GradientType=0 ); /* IE6-9 */
+	}
+	.primary-bg.dark-bg.gradient-bg {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0089d0+0,0060af+100 */
+		background: #0060af; /* Old browsers */
+		background: -moz-linear-gradient(top,  #0089d0 0%, #0060af 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #0089d0 0%,#0060af 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #0089d0 0%,#0060af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0089d0', endColorstr='#0060af',GradientType=0 ); /* IE6-9 */
+	}
+
+.secondary-bg.light-bg.gradient-bg {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c6168d+0,92278f+100 */
+	background: #c6168d; /* Old browsers */
+	background: -moz-linear-gradient(top,  #c6168d 0%, #f47920 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #c6168d 0%,#f47920 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #c6168d 0%,#f47920 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6168d', endColorstr='#f47920',GradientType=0 ); /* IE6-9 */
+}
+	.secondary-bg.medium-bg.gradient-bg {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c6168d+0,5c2e91+100 */
+		background: #f47920; /* Old browsers */
+		background: -moz-linear-gradient(top,  #c6168d 0%, #006b6b 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #c6168d 0%,#006b6b 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #c6168d 0%,#006b6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6168d', endColorstr='#006b6b',GradientType=0 ); /* IE6-9 */
+	}
+	.secondary-bg.dark-bg.gradient-bg {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f47920+0,5c2e91+100 */
+		background: #f47920; /* Old browsers */
+		background: -moz-linear-gradient(top,  #f47920 0%, #006b6b 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #f47920 0%,#006b6b 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #f47920 0%,#006b6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f47920', endColorstr='#006b6b',GradientType=0 ); /* IE6-9 */
+	}
+
+/* Stripe Bar */
+.bg-stripe-bar {background: url(graphics/images/blue_purple/bg_stripe_bar.png) center center repeat;}
+
+/* Menu Colors */
+.top-bar a:hover {color: #fcaf17;}
+.mainnav a {color: #f47920;}
+    .mainnav a:hover, .mainnav > li:hover > a, #footer .footer-site-title {color: #0089d0;}
+    .mainnav li ul a:hover, .mainnav li ul li:hover, .mainnav li ul li ul.secondary-bg.medium-bg {background: #006b6b;}
+        .mainnav li ul li ul.secondary-bg.medium-bg a:hover {background: #c6168d;}
+    .mainnav-wrapper li ul li ul.primary-bg.medium-bg {background: #0060af;}
+        .mainnav-wrapper li ul li ul.primary-bg.medium-bg a:hover {background: #fcaf17;}
+        
+    .sub-nav-wrapper .columns > ul > li:hover {background: #006b6b;}    
+        .sub-nav-wrapper li ul a:hover, .sub-nav-wrapper li ul li:hover {background: #f47920;}
+        .sub-nav-wrapper li ul li li a:hover {background: #c6168d;}
+  
+/* Donation Form Button Colors */
+div.button-container .button {border: 2px solid #0060af;}
+div.button-container .button:hover{background:rgba(0,174,239,.1);}
+div.button-container .button.selected {background:#0060af;}  
+    
+/* Slick Nav mobile tertiary UL background overwrite */
+.slicknav_nav ul ul.secondary-bg.medium-bg {background: #006b6b;}
+.footer-callout.bar {
+    background: #006b6b; /* Old browsers */
+    background: -moz-linear-gradient(left,  #f47920 0%, #006b6b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f47920), color-stop(100%,#006b6b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #f47920 0%,#006b6b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #f47920 0%,#006b6b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #f47920 0%,#006b6b 100%); /* IE10+ */
+    background: linear-gradient(to right,  #f47920 0%,#006b6b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f47920', endColorstr='#006b6b',GradientType=1 ); /* IE6-9 */
+}
+
+/* Footer Logo w/ Demo Mode Color Switcher */
+.footer-logo, .header-logo {background: url(graphics/images/blue_purple/y_logo.png) no-repeat;}
+
+/*landing page color icons */
+.value-icons.books{background: url(graphics/images/blue_purple/books.png) no-repeat top center;}
+.value-icons.plant{background: url(graphics/images/blue_purple/plant.png) no-repeat top center;}
+.value-icons.heart{background: url(graphics/images/blue_purple/heart.png) no-repeat top center;}
+
+/* Settings Panel Color Choice Highlight */
+.setting #blue_purple {border: 3px solid #fff;}
+
+/*membership rates */
+.membership-box .price.primary-dark-hl {background:#005193;}
+.membership-box .price.primary-medium-hl {background:#0073af;}
+.membership-box .price.primary-light-hl {background:#0092c9;}
+.membership-box .price.secondary-medium-hl {background:#7b2178;}
+.membership-box .price.secondary-dark-hl {background:#4d277a;}
+.membership-icon {background: url(graphics/images/blue_purple/icon-group.png) no-repeat top center;} /*might have to delete after deploy*/
